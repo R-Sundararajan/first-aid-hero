@@ -6,6 +6,8 @@ A responsive first-aid reference and learning website, developed for the SSN You
 
 Use Node.js 22.12+ or 24 LTS and npm.
 
+Open a terminal in the project folder (`First-Aid-Hero/` after extracting the submission ZIP).
+
 ```sh
 npm ci
 npm run dev
@@ -48,6 +50,48 @@ The production build is in `dist/`. This is a static React application. Configur
 - Learning introductions and a five-question quiz with explanations, source-guide links and a reset action.
 - About, India emergency information, source references and explicit medical limitations.
 - Responsive CSS, semantic HTML, keyboard focus, a skip link, route focus handling, descriptive titles and a useful not-found page.
+
+## Technology stack
+
+React and TypeScript, built with Vite; React Router for navigation; Lucide for icons; plain CSS with reusable variables. Guide content and quiz questions are stored locally as typed data. No backend or external API is required.
+
+## UI Preview
+
+Real, full-page screenshots captured from the local production build. Expand a gallery and click an image to view the full screenshot.
+
+### Desktop
+
+At a 1440px viewport, the compact header, search and emergency topics are arranged for quick access. Guide instructions use a narrower reading column.
+
+<details>
+<summary>View desktop screenshots (1440px)</summary>
+
+| Homepage | First-aid library |
+| --- | --- |
+| [![Desktop homepage](UI_Screenshots/desktop-home.png)](UI_Screenshots/desktop-home.png) | [![Desktop first-aid library](UI_Screenshots/desktop-guides.png)](UI_Screenshots/desktop-guides.png) |
+
+| Adult CPR instructions | Learning and quiz |
+| --- | --- |
+| [![Desktop adult CPR instructions](UI_Screenshots/desktop-cpr.png)](UI_Screenshots/desktop-cpr.png) | [![Desktop learning and quiz page](UI_Screenshots/desktop-learn.png)](UI_Screenshots/desktop-learn.png) |
+
+</details>
+
+### Mobile
+
+At a 390px viewport, topics and instructions form a single column, controls remain readable, and the Call 112 action stays in the header.
+
+<details>
+<summary>View mobile screenshots (390px)</summary>
+
+| Homepage | First-aid library |
+| --- | --- |
+| [![Mobile homepage](UI_Screenshots/mobile-home.png)](UI_Screenshots/mobile-home.png) | [![Mobile first-aid library](UI_Screenshots/mobile-guides.png)](UI_Screenshots/mobile-guides.png) |
+
+| Adult CPR instructions | Learning and quiz |
+| --- | --- |
+| [![Mobile adult CPR instructions](UI_Screenshots/mobile-cpr.png)](UI_Screenshots/mobile-cpr.png) | [![Mobile learning and quiz page](UI_Screenshots/mobile-learn.png)](UI_Screenshots/mobile-learn.png) |
+
+</details>
 
 ## Project structure
 
